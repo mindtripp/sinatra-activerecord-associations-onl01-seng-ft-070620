@@ -9,7 +9,6 @@
 ### Introduction 
 
 Previously, we learned about foreign and primary keys in SQL and how they relate tables to one another. In this lesson, we're going to learn how to do this using ActiveRecord. This lab has pre-written code that you can follow along with - feel free to fork and clone the repo locally.
-
 ### Primary Keys
 
 The end goal of this readme is to create a relationship in our app that mimics the real life cat-owner relationship: owners can **have many** cats and cats **belong to** an owner. Let's assume we have two tables in our database: `cats` and `owners`, which we created from the command line using rake.
